@@ -1,8 +1,8 @@
 <?php
 // db.php - 只在這裡開啟一次連接
 $servername = "13.54.4.168"; // 資料庫伺服器
-$username = "root";        // 資料庫用戶名
-$password = "root";            // 資料庫密碼
+$username = "";        // 資料庫用戶名
+$password = "";            // 資料庫密碼
 $dbname = "seat_booking";  // 資料庫名稱
 
 // 創建連接

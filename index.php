@@ -19,7 +19,7 @@ while ($row = $result->fetch_assoc()) {
 // 處理預約請求
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['seat_id']) && isset($_POST['user_name'])) {
     $seat_id = $_POST['seat_id'];
-    $user_name = $_POST['user_name'];
+    $user_name = $_POST['user_name'];                                                                                                                                                                         
 
     // 查詢座位是否已經預約
     $check_sql = "SELECT * FROM seats WHERE seat_id = ? AND is_reserved = 1";
